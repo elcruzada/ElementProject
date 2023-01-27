@@ -181,7 +181,7 @@ button {
 
 .eigthDiv {
   display: flex;
-  /* flex-flow: row wrap; */
+  flex-flow: row wrap;
   justify-content: center;
   justify-content: space-evenly;
 }
