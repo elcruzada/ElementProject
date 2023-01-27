@@ -230,7 +230,7 @@ eigthDiv.className = "eigthDiv"
 eigthDiv.append(alpacaPineapple)
 alpacaPineapple.src = '/imagesFolder/Travel/alpacaPineapple.jpg'
 eigthDiv.append(fabulousAlpaca)
-fabulousAlpaca.src = '/imagesFolder/Travel/Alpaca Looking Fabulous2.jpg'
+fabulousAlpaca.src = '/imagesFolder/Travel/Alpaca Looking Fabulous.jpg'
 
     // baudelaire.className = "authorImages"
 
