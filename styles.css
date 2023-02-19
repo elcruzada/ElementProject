@@ -130,13 +130,15 @@ button {
   flex-flow: row wrap;
   justify-content: center;
   justify-content: space-evenly;
+  padding-bottom: 75px;
 }
 
-.eigthDiv {
+.eighthDiv {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   justify-content: space-evenly;
+  padding-bottom: 75px;
 }
 
 

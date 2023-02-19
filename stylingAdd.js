@@ -191,9 +191,13 @@ imagesAndTextFunction(musicList, fifthDiv, textDiv4, "Music", "musicImages", "mu
 
     seventhDiv.append(watRongKun)
     watRongKun.src = '/imagesFolder/Travel/watrongkun.jpg'
-    seventhDiv.append(japanLights)
-    japanLights.src = '/imagesFolder/Travel/japanLights.jpg'
 
+    const eighthDiv = document.createElement('div')
+    document.body.append(eighthDiv)
+    eighthDiv.className = "eighthDiv"
+
+    eighthDiv.append(japanLights)
+    japanLights.src = '/imagesFolder/Travel/japanLights.jpg'
 }
 
 
