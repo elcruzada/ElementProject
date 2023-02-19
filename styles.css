@@ -1,39 +1,25 @@
 .topImage {
-     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
-        width: 300px;
-        height: auto;
-        border-radius: 50%;
-      object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .topDiv {
-    /* font-size: 16px; */
-    /* font-style: italics; */
-    /* font-weight: bold; */
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-
-    display: flex;
+  display: flex;
   flex-flow: row wrap;
   justify-content: center;
   justify-content: space-evenly;
   padding: 32px;
-  /* margin: 0 auto; */
   border-bottom: 1px solid #dfe1e6;
-  /* justify-content: center; */
 }
 
 button {
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    /* border-bottom: 0; */
-    /* border-radius: 2px; */
-    /* padding: 10px; */
-    /* margin: 0 5px; */
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 .header {
@@ -49,23 +35,9 @@ button {
 }
 
 .imageDiv {
-    /* display: flex;
-    flex-wrap: wrap;
-    width: 80%; */
-    /* width: 100%;
-    height: 300px; */
-    /* grid-template-rows: 50px 1fr 30px;
-    grid-template-columns: 150px 1fr; */
-    /* grid-template-columns: repeat(9, 1fr);
-    grid-auto-rows: minmax(100px, auto); */
-    /* grid-template-columns: repeat(7, 1fr); */
-    /* grid-template-rows: auto; */
-    /* margin: auto; */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    /* width: 250px;
-    height: auto; */
     justify-content: space-around;
 }
 
@@ -74,16 +46,13 @@ button {
   flex-flow: row wrap;
   justify-content: center;
   justify-content: space-around;
-  /* width: 280px;
-  height: auto; */
 }
+
 .fourthDiv {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   justify-content: space-around;
-  /* width: 280px;
-  height: auto; */
 }
 
 .fifthDiv {
@@ -91,19 +60,7 @@ button {
   flex-flow: row wrap;
   justify-content: center;
   justify-content: space-around;
-  /* width: 280px;
-  height: auto; */
 }
-
-/* .poetName {
-} */
-/* img {
-    width: 250px;
-    height: auto; */
-    /* padding: 3.65em; */
-    /* display: block; */
-  /* width: 50%; */
-/* } */
 
 .gamesImages{
   width: 250px;
@@ -130,12 +87,11 @@ button {
 }
 
 .grandFlood {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
-        width: 300px;
-        height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
 }
 
 .p1 {
@@ -147,7 +103,6 @@ button {
   font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
   color: darkslategray;
   font-size: 29px;
-  /* font-weight: 500; */
 }
 
 .p2 {
@@ -160,7 +115,6 @@ button {
   font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
   color: darkslategray;
   font-size: 29px;
-  /* font-weight: 500; */
 }
 
 .sixthDiv {
@@ -168,8 +122,7 @@ button {
   flex-flow: row wrap;
   justify-content: center;
   justify-content: space-evenly;
-  /* width: 300px;
-  height: auto; */
+  padding-bottom: 75px;
 }
 
 .seventhDiv {
@@ -185,47 +138,35 @@ button {
   justify-content: center;
   justify-content: space-evenly;
 }
-/* img{
-    transition: 1s ease;
-    }
 
-    img:hover{
-    -webkit-transform: rotateZ(-10deg);
-    -ms-transform: rotateZ(-10deg);
-    transform: rotateZ(-10deg);
-    transition: 1s ease;
-    } */
 
-     img {
-        transition: 1s ease;
-        }
+img {
+  transition: 1s ease;
+}
 
-        img:hover {
-        border-radius:50%;
-        transition: 1s ease;
-        }
+img:hover {
+  border-radius:50%;
+  transition: 1s ease;
+}
 
-        button {
-            padding: 15px 25px;
-            font-size: 24px;
-            text-align: center;
-            cursor: pointer;
-            outline: none;
-            background-color: #FFFFFF;
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 9px #999;
-          }
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
 
-          button:hover {background-color: 	lavenderblush}
+button:hover {
+  background-color: 	lavenderblush
+}
 
-          button:active {
-            background-color: 	lavenderblush;
-            box-shadow: 0 5px #666;
-            transform: translateY(4px);
-          }
-  /* body {
-    background-color: coral;
-  color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  } */
+button:active {
+  background-color: 	lavenderblush;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
